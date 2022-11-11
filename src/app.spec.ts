@@ -4,6 +4,6 @@ import { app } from './app';
 
 describe('App test', () => {
   it('should be defined', () => {
-    expect(app).toBeDefined();
+    expect(app).not.toBeDefined();
   });
 });
